@@ -1,0 +1,30 @@
+{
+  "name": "codezap",
+  "version": "1.0.0",
+  "description": "AI-powered VS Code plugin for code, tests, debugging, and CI/CD",
+  "main": "extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "codezap.generate",
+        "title": "CodeZap: Generate"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vyshnavi015/codezap.git"
+  }
+}
