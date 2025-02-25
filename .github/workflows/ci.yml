@@ -27,7 +27,7 @@ jobs:
         working-directory: ./src
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated from v3 to v4
         with:
           name: codezap-vsix
           path: src/*.vsix
