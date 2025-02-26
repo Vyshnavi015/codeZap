@@ -128,3 +128,28 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node.js dependencies
+node_modules/
+package-lock.json  # Optional—keep if you want exact versions; exclude if you rely on package.json
+
+# VS Code extension files
+*.vsix
+
+# API keys and sensitive data
+.env
+*.key
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
